@@ -3,6 +3,7 @@ import './App.css';
 import Contacts from "./Components/Contacts";
 import Managers from "./Components/Managers"
 import Links from "./Components/Links";
+import Color from "./Components/Color";
 import {useState} from "react";
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
             cost: '4.5 $',
             manager: 'Ivan',
             contact: '+7895222',
-            link: <a href="https://www.linkedin.com/feed/">LD_ivan_the_best_seller</a>
+            link: <a href="https://www.linkedin.com/feed/">LD_ivan_the_best_seller</a>,
+            color: 'red'
         },
         {
             id: 102,
@@ -31,7 +33,8 @@ function App() {
             cost: '8.5 $',
             manager: 'Tanya',
             contact: '+78952544',
-            link: <a href="https://vk.com/">VK_Lisichka_Kosichka</a>
+            link: <a href="https://vk.com/">VK_Lisichka_Kosichka</a>,
+            color: 'green'
         },
         {
             id: 103,
@@ -40,7 +43,8 @@ function App() {
             cost: Math.floor(Math.random() * ( Math.pow(10, 5 )))+ ' $',
             manager: 'Ivan',
             contact: '+7895477',
-            link: <a href="https://www.facebook.com/">FB_Seriously_Person</a>
+            link: <a href="https://www.facebook.com/">FB_Seriously_Person</a>,
+            color: 'orange'
         },
     ];
 
@@ -111,6 +115,8 @@ function App() {
             <Contacts car = {car}/>
             <Links car = {car}/>
             <Managers car = {car}/>
+            <Color car = {car}/>
+
         </ul>
 
     </div>
