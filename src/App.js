@@ -35,7 +35,7 @@ function App() {
         },
         {
             id: 103,
-            model: "Mercedes",
+            model: "Mercedes!!!",
             year: '1980',
             cost: Math.floor(Math.random() * ( Math.pow(10, 5 )))+ ' $',
             manager: 'Ivan',
