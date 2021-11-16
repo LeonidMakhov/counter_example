@@ -5,6 +5,7 @@ import Managers from "./Components/Managers"
 import Links from "./Components/Links";
 import Color from "./Components/Color";
 import {useState} from "react";
+import Products from "./Products";
 
 function App() {
     const initialCounters = [
@@ -113,6 +114,7 @@ function App() {
             <Links car = {car}/>
             <Managers car = {car}/>
             <Color car={car}/>
+            <Products />
         </ul>
 
     </div>
