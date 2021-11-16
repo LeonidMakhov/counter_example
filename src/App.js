@@ -3,6 +3,7 @@ import './App.css';
 import Contacts from "./Components/Contacts";
 import Managers from "./Components/Managers"
 import Links from "./Components/Links";
+import Color from "./Components/Color";
 import {useState} from "react";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             cost: '4.5 $',
             manager: 'Ivan',
             contact: '+7895222',
-            link: <a href="https://www.linkedin.com/feed/">Linkdin_ivan_the_best_seller</a>
+            link: <a href="https://www.linkedin.com/feed/">LD_ivan_the_best_seller</a>
         },
         {
             id: 102,
