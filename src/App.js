@@ -112,6 +112,7 @@ function App() {
             <Contacts car = {car}/>
             <Links car = {car}/>
             <Managers car = {car}/>
+            <Color car={car}/>
         </ul>
 
     </div>
