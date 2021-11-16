@@ -22,7 +22,7 @@ function App() {
             cost: '4.5 $',
             manager: 'Ivan',
             contact: '+7895222',
-            link: <a href="https://www.linkedin.com/feed/">LD_ivan_the_best_seller</a>
+            link: <a href="https://www.linkedin.com/feed/">Linkdin_ivan_the_best_seller</a>
         },
         {
             id: 102,
